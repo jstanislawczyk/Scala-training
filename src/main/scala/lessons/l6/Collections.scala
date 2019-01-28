@@ -5,6 +5,9 @@ object Collections {
     val listTest = new ListTest
     val setTest = new SetTest
     val mapTest = new MapTest
+    val tupleTest = new TupleTest
+    val optionsTest = new OptionsTest
+    val iteratorTest = new IteratorTest
 
     println("LIST")
     listTest.printList()
@@ -14,5 +17,14 @@ object Collections {
 
     println("\nMAP")
     mapTest.printMap()
+
+    println("\nTUPLE")
+    tupleTest.printTuple()
+
+    println("\nOPTIONS")
+    optionsTest.printOptions()
+
+    println("\nITERATOR")
+    iteratorTest.printIterator()
   }
 }
